@@ -317,7 +317,7 @@ const Calendar = () => {
                   style={{
                     border: "2px solid orange",
                     backgroundColor: "rgba(255,102,51,0.05)",
-                    // width: "150px",
+                  
                   }}
                 >
                   <div>
@@ -398,7 +398,7 @@ const Calendar = () => {
                   style={{
                     border: "2px solid #8833FF",
                     backgroundColor: "#8833FF0D",
-                    // width: "150px",
+                  
                   }}
                 >
                 <div>
@@ -427,8 +427,7 @@ const Calendar = () => {
                   style={{
                     border: "2px solid  #33BFFF",
                     backgroundColor: "#33BFFF0D",
-                    // width: "170px",
-                    // height: "80px",
+                  
                   }}
                 >
 
@@ -486,7 +485,7 @@ const Calendar = () => {
                   style={{
                     border: "2px solid #E62E7B",
                     backgroundColor: "#8833FF0D",
-                    // width: "150px",
+                  
                   }}
                 >
                   <div className="d-flex gap-1">
@@ -570,7 +569,7 @@ const Calendar = () => {
                   style={{
                     border: "2px solid #33BFFF",
                     backgroundColor: "#33BFFF0D",
-                    // width: "150px",
+                  
                   }}
                 >
                   <div className="d-flex flex-column gap-1">

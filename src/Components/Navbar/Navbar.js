@@ -21,7 +21,11 @@ const Navbar = () => {
   const handleMenuClick = (path) => {
     setClickedButton(path); 
     navigate(path); 
+
+    
   };
+
+
 
   return (
     <Layout

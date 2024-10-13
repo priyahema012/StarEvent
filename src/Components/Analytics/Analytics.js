@@ -16,6 +16,7 @@ import elipses3 from "../../Assests/Images/Ellipse 8 (3).png";
 import roseelispe from "../../Assests/Images/arrow-up (2).png";
 
 function Analytics() {
+  
   return (
     <div className=" pb-5" style={{ backgroundColor: "gainsboro" }}>
       <div className="row p-3 " style={{ display: "flex" }}>

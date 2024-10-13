@@ -39,8 +39,7 @@ function Settings() {
               </div>
               <div className="col-auto">
                 <Switch 
-                  // checked={!loading}
-                  // onChange={(checked) => setLoading(!checked)}
+                 
                   style={{ backgroundColor: "" , width:"50px" }}
                 />
               </div>
@@ -53,8 +52,7 @@ function Settings() {
               </div>
               <div className="col-auto">
                 <Switch
-                  // checked={loading}
-                  // onChange={(checked) => setLoading(!checked)}
+               
                   style={{ width:"50px" }}
                 />
               </div>
@@ -67,8 +65,7 @@ function Settings() {
               </div>
               <div className="col-auto">
                 <Switch
-                  // checked={loading}
-                  // onChange={(checked) => setLoading(!checked)}
+             
                   style={{  width:"50px" }}
                 />
               </div>
