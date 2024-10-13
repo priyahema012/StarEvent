@@ -356,9 +356,10 @@ const Calendar = () => {
               <td></td>
 
               <td rowSpan={3}>
-                <div className="d-flex flex-column justify-content-between cart  p-2 ">
+                <div className="d-flex flex-column justify-content-between universal  p-2 ">
                   <div className="text-start">
-                    <span className="stared ">11:00</span>
+                    <span className="universale me-2">11:00</span>
+                    <span className="universale ">11:00</span>
                     <p className="cart2 " style={{ fontSize: "12px" }}>
                       The Universal Through A Child S Eyes
                     </p>
@@ -529,11 +530,11 @@ const Calendar = () => {
               <td></td>
 
               <td rowSpan={2}>
-                <div className="d-flex flex-column justify-content-around cart align-items-start p-2">
+                <div className="d-flex flex-column justify-content-around quality align-items-start p-2">
                   <div className="d-flex flex-column">
                     <div className="d-flex ">
-                      <span className="star me-2">13:00</span>
-                      <span className="star">14:59</span>
+                      <span className="qualities me-2">13:00</span>
+                      <span className="qualities">14:59</span>
                     </div>
                     <p className="heading text-start">Choosing  A Quality Cookware Set</p>
                   </div>

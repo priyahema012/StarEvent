@@ -1,13 +1,13 @@
 .tables {
   font-size: 15px;
   font-weight: 700;
-  line-height: 24px;
+ 
   text-align: left;
   color: #121212;
   width: 61px;
   height: 24px;
-  gap: 0px;
-  opacity: 0px;
+  
+ 
 }
 
 .pagination-custom {

@@ -32,10 +32,7 @@ position: relative;
   width: 100%;
 }
 
-.Basic {
-  width: 100%;
-  padding-right: 30px;
-}
+
 
 .icon {
   position: absolute;
@@ -53,10 +50,6 @@ position: relative;
   display: inline-block;
 }
 
-.Basic {
-  width: 100%;
-  padding-right: 40px;
-}
 
 .icon {
   position: absolute;
@@ -130,10 +123,7 @@ position: relative;
   pointer-events: none;
 }
 
-.Basic {
-  width: 100%;
-  padding-right: 40px;
-}
+
 
 .col {
   flex: 1;
@@ -141,14 +131,12 @@ position: relative;
 }
 
 .Basic {
-  width: 100%;
+ 
   background-color: gainsboro;
-  width: Fill (335px) px;
+  width: 335px;
   height: 40px;
   padding: 16px 20px 16px 20px;
-  gap: 0px;
-  justify-content: center;
-  opacity: 0px;
+ 
 }
 .description {
   font-size: 14px;
@@ -158,16 +146,7 @@ position: relative;
   text-align: left;
   color: #121212;
 }
-.basic {
-  width: 100%;
-  background-color: gainsboro;
-  width: Fill (335px) px;
-  height: 70px;
-  padding: 16px 20px 16px 20px;
-  gap: 0px;
-  justify-content: center;
-  opacity: 0px;
-}
+
 
 .submit {
   width: Fixed (200px) px;
@@ -178,6 +157,13 @@ position: relative;
   opacity: 0px;
   color: white;
   background-color: #c42072;
+}
+
+.droped{
+  background-color: gainsboro !important;
+  width: 335px !important;
+  height: 80px !important;
+  padding: 20px !important;
 }
 
 .submit1 {

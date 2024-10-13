@@ -12,6 +12,7 @@ table {
   
 }
 
+
 th {
   background-color: #f5f5f5;
   font-size: 16px;
@@ -21,6 +22,8 @@ th {
   border: 2px solid rgba(235, 236, 240, 1);
   vertical-align: middle;
 }
+
+
 
 .roweds {
   font-size: 14px;
@@ -65,6 +68,40 @@ td:hover {
   color: #757575;
   /* width: 110px;
   height: 16px; */
+}
+
+.universal{
+  background-color: rgba(204,116,41,0.05);
+  border: 2px solid #CC7429;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+
+}
+.universale{
+  font-size: 8px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  background-color: #CC7429;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+.quality{
+  background-color: rgba(34, 166, 1, 0.05);
+  border: 2px solid#14B8A6;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.qualities{
+  font-size: 8px;
+  font-weight: 600;
+
+  color: rgba(255, 255, 255, 1);
+  background-color: #14B8A6;
+  padding: 2px 6px;
+  border-radius: 2px;
 }
 
 .star {
