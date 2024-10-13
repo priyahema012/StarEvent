@@ -67,6 +67,7 @@ position: relative;
   pointer-events: none;
 }
 
+
 .category {
   font-size: 14px;
   font-weight: 600;
@@ -254,3 +255,5 @@ position: relative;
   width: 25px; /* Image size */
   height: 25px;
 }
+
+

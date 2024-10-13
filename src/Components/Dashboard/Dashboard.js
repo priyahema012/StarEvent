@@ -160,10 +160,10 @@ function Dashboard() {
       className=" mt-2 pb-5"
       style={{ backgroundColor: "gainsboro", width: "100%" }}
     >
-      <div className="row  pt-3 gap-2 mx-2">
+      <div className="row  pt-3 gap-2 mx-3">
         <div
           className="col-lg-3 col-md-6 d-flex bg-light p-3 justify-content-start align-items-center  rounded-2 "
-          style={{ width: "266px", height: "100px" }}
+          style={{ width: "260px", height: "100px" }}
         >
           <img src={dash} width={40} height={40} />
           <div className="d-flex flex-column ms-4 ">
@@ -174,7 +174,7 @@ function Dashboard() {
 
         <div
           className="col-lg-3 col-md-6 d-flex bg-light p-3 justify-content-start align-items-center rounded-2"
-          style={{ width: "266px", height: "100px" }}
+          style={{ width: "260px", height: "100px" }}
         >
           <img src={dash1} width={40} height={40} />
           <div className="d-flex flex-column ms-4 ">
@@ -185,7 +185,7 @@ function Dashboard() {
 
         <div
           className="col-lg-3 col-md-6 d-flex bg-light p-3 justify-content-start align-items-center  rounded-2 "
-          style={{ width: "266px", height: "100px" }}
+          style={{ width: "260px", height: "100px" }}
         >
           <img src={dash2} width={40} height={40} />
           <div className="d-flex flex-column ms-4 ">
@@ -197,7 +197,7 @@ function Dashboard() {
 
         <div
           className="col-lg-3 col-md-6 d-flex bg-light p-3 justify-content-start align-items-center  rounded-2"
-          style={{ width: "266px", height: "100px" }}
+          style={{ width: "260px", height: "100px" }}
         >
           <img src={dash3} width={50} height={40} />
           <div className="d-flex flex-column ms-4 ">

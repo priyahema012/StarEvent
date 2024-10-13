@@ -1,12 +1,14 @@
-import React from "react";
-import { Input, Card, Upload, Button } from "antd";
-import { DownOutlined, UploadOutlined } from "@ant-design/icons";
+import React, {useState} from "react";
+import { Card } from "antd"; // Keep Card from Ant Design for layout
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import Classes from "./Events.module.css";
 import calculator from "../../Assests/Images/calendar (1).png";
 import events from "../../Assests/Images/resize-textarea.png";
 import upload from "../../Assests/Images/document-upload (1).png";
+
+
+
 
 const EventSchema = Yup.object().shape({
   eventName: Yup.string().required("Event Name is required"),
@@ -21,7 +23,20 @@ const EventSchema = Yup.object().shape({
   speakerDesignation: Yup.string().required("Speaker Designation is required"),
 });
 
+
+
 function Events() {
+
+  const [imagePreview, setImagePreview] = useState(null); 
+
+  
+  const handleImageChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      setImagePreview(URL.createObjectURL(file)); 
+    }
+  }
+
   const { values, errors, touched, handleChange, handleSubmit } = useFormik({
     initialValues: {
       eventName: "",
@@ -52,10 +67,10 @@ function Events() {
             <div className={Classes.col}>
               <label className={Classes.event}>Event Name</label>
               <br />
-              <Input
+              <input
                 name="eventName"
                 placeholder="Text Input"
-                className={Classes.Basic}
+                className={`form-control ${Classes.Basic}`}
                 value={values.eventName}
                 onChange={handleChange}
               />
@@ -66,18 +81,13 @@ function Events() {
             <div className={Classes.col}>
               <label className={Classes.category}>Category</label>
               <br />
-              <div className={Classes.inputWrapper}>
-                <Input
-                  name="category"
-                  placeholder="Text Input"
-                  className={Classes.Basic}
-                  value={values.category}
-                  onChange={handleChange}
-                />
-                <span className={Classes.icon}>
-                  <DownOutlined />
-                </span>
-              </div>
+              <input
+                name="category"
+                placeholder="Text Input"
+                className={`form-control ${Classes.Basic}`}
+                value={values.category}
+                onChange={handleChange}
+              />
               {errors.category && touched.category ? (
                 <div style={{ color: "red" }}>{errors.category}</div>
               ) : null}
@@ -87,10 +97,10 @@ function Events() {
               <label className={Classes.date}>Date & Time</label>
               <br />
               <div className={Classes.inputWrapper}>
-                <Input
+                <input
                   name="dateTime"
                   placeholder="2024-07-12 09:00 AM"
-                  className={Classes.Basic}
+                  className={`form-control ${Classes.Basic}`}
                   value={values.dateTime}
                   onChange={handleChange}
                 />
@@ -113,10 +123,10 @@ function Events() {
               <label className={Classes.description}>Description</label>
               <br />
               <div className={Classes.inputWrapper}>
-                <Input
+                <input
                   name="description"
                   placeholder="Text Input"
-                  className={Classes.Basic}
+                  className={`form-control ${Classes.Basic}`}
                   value={values.description}
                   style={{
                     height: "70px",
@@ -151,10 +161,10 @@ function Events() {
             <div className={Classes.col}>
               <label className={Classes.description}>Location</label>
               <br />
-              <Input
+              <input
                 name="location"
                 placeholder="Text Input"
-                className={Classes.Basic}
+                className={`form-control ${Classes.Basic}`}
                 value={values.location}
                 onChange={handleChange}
               />
@@ -166,10 +176,10 @@ function Events() {
             <div className={Classes.col}>
               <label className={Classes.description}>Total Ticket</label>
               <br />
-              <Input
+              <input
                 name="totalTicket"
                 placeholder="0"
-                className={Classes.Basic}
+                className={`form-control ${Classes.Basic}`}
                 value={values.totalTicket}
                 onChange={handleChange}
               />
@@ -181,10 +191,10 @@ function Events() {
             <div className={Classes.col}>
               <label className={Classes.description}>Ticket Price</label>
               <br />
-              <Input
+              <input
                 name="ticketPrice"
                 placeholder="0"
-                className={Classes.Basic}
+                className={`form-control ${Classes.Basic}`}
                 value={values.ticketPrice}
                 onChange={handleChange}
               />
@@ -203,10 +213,10 @@ function Events() {
             <div className={Classes.col}>
               <label className={Classes.event}>Name</label>
               <br />
-              <Input
+              <input
                 name="speakerName"
                 placeholder="Minato Namikaze"
-                className={Classes.Basic}
+                className={`form-control ${Classes.Basic}`}
                 value={values.speakerName}
                 onChange={handleChange}
               />
@@ -218,10 +228,10 @@ function Events() {
             <div className={Classes.col}>
               <label className={Classes.category}>Phone Number</label>
               <br />
-              <Input
+              <input
                 name="speakerPhone"
                 placeholder="7444213236"
-                className={Classes.Basic}
+                className={`form-control ${Classes.Basic}`}
                 value={values.speakerPhone}
                 onChange={handleChange}
               />
@@ -233,10 +243,10 @@ function Events() {
             <div className={Classes.col}>
               <label className={Classes.date}>Designation</label>
               <br />
-              <Input
+              <input
                 name="speakerDesignation"
                 placeholder="Anchor"
-                className={Classes.Basic}
+                className={`form-control ${Classes.Basic}`}
                 value={values.speakerDesignation}
                 onChange={handleChange}
               />
@@ -249,43 +259,57 @@ function Events() {
           <br />
 
           <div className={Classes.col}>
-  <label className={Classes.category}>Upload Image</label>
-  <div className={Classes.uploadWrapper} style={{ position: "relative" }}>
-    <Input
-      name="speakerPhone"
-      placeholder="7444213236"
-      className={Classes.upload}
-      value={values.speakerPhone}
-      onChange={handleChange}
-    />
-       <img
-                  src={upload}
-                  alt="icon"
-                 
-                  style={{
-                     right:"25px",
-                     position:"relative"
-                  }}
-                />
-    {errors.speakerPhone && touched.speakerPhone ? (
-      <div style={{ color: "red" }}>{errors.speakerPhone}</div>
-    ) : null}
+      <label className={Classes.category}>Upload Image</label>
+      <div className={Classes.uploadWrapper} style={{ position: "relative" }}>
+        <br />
+        <div style={{ width: "330px", position: "relative" }}>
+          <input
+            type="file" // Changed input type to file
+            name="imageUpload"
+            accept="image/*" // Restrict to image files only
+            className={`form-control ${Classes.Basic}`}
+            onChange={handleImageChange} // Handle image file selection
+          />
+          {imagePreview ? (
+            <img
+              src={imagePreview} // Display the selected image
+              alt="Uploaded"
+              style={{
+                width: "100%",
+                height: "auto",
+                position: "absolute",
+                left: 0,
+                bottom: 0,
+              }}
+            />
+          ) : (
+            <img
+              src={upload} // Fallback to upload icon
+              alt="icon"
+              style={{
+                left: "300px",
+                bottom: "30px",
+                position: "relative",
+              }}
+            />
+          )}
+        </div>
 
-  
-      
-  
-  </div>
-</div>
+        {errors.description && touched.description ? (
+          <div style={{ color: "red" }}>{errors.description}</div>
+        ) : null}
+      </div>
+    </div>
 
           <br />
 
           <div className={Classes.buttonContainer}>
-            <Button type="text" htmlType="submit" className={Classes.submit}>
+            <button type="submit" className={`btn btn-primary ${Classes.submit}`}>
               Publish Event
-            </Button>
-            <Button type="text" className={Classes.submit1}>
+            </button>
+            <button type="button" className={`btn btn-secondary ${Classes.submit1}`}>
               Cancel
-            </Button>
+            </button>
           </div>
         </form>
       </Card>

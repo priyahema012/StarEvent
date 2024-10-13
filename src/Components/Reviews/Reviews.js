@@ -40,31 +40,31 @@ const Reviews = () => {
                 <thead>
                   <tr style={{ backgroundColor: "gainsboro" }}>
                     <th
-                      className={`${Classes.table} text-start`}
+                      className={`${Classes.tables} text-start text-black`}
                       style={{ width: "20%" }}
                     >
                       Customer
                     </th>
                     <th
-                      className={`${Classes.table} text-start`}
+                      className={`${Classes.tabls} text-start text-black`}
                       style={{ width: "15%" }}
                     >
                       Date
                     </th>
                     <th
-                      className={`${Classes.table} text-start`}
+                      className={`${Classes.tables} text-start text-black`}
                       style={{ width: "20%" }}
                     >
                       Event Name
                     </th>
                     <th
-                      className={`${Classes.table} text-start`}
+                      className={`${Classes.tables} text-start text-black`}
                       style={{ width: "40%" }}
                     >
                       Review & Comment
                     </th>
                     <th
-                      className={`${Classes.table} text-start`}
+                      className={`${Classes.tables} text-start text-black`}
                       style={{ width: "5%" }}
                     ></th>
                   </tr>

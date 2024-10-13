@@ -38,10 +38,10 @@ function Settings() {
                 <p>Enable or disable email notifications.</p>
               </div>
               <div className="col-auto">
-                <Switch
-                  checked={!loading}
-                  onChange={(checked) => setLoading(!checked)}
-                  style={{ backgroundColor: "blue" }}
+                <Switch 
+                  // checked={!loading}
+                  // onChange={(checked) => setLoading(!checked)}
+                  style={{ backgroundColor: "" , width:"50px" }}
                 />
               </div>
             </div>
@@ -53,9 +53,9 @@ function Settings() {
               </div>
               <div className="col-auto">
                 <Switch
-                  checked={loading}
-                  onChange={(checked) => setLoading(!checked)}
-                  style={{ backgroundColor: "gainsboro" }}
+                  // checked={loading}
+                  // onChange={(checked) => setLoading(!checked)}
+                  style={{ width:"50px" }}
                 />
               </div>
             </div>
@@ -67,9 +67,9 @@ function Settings() {
               </div>
               <div className="col-auto">
                 <Switch
-                  checked={loading}
-                  onChange={(checked) => setLoading(!checked)}
-                  style={{ backgroundColor: "gainsboro" }}
+                  // checked={loading}
+                  // onChange={(checked) => setLoading(!checked)}
+                  style={{  width:"50px" }}
                 />
               </div>
             </div>
