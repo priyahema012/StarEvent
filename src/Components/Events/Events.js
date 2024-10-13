@@ -306,13 +306,13 @@ function Events() {
           <div className={Classes.buttonContainer}>
             <button
               type="submit"
-              className={`btn btn-primary ${Classes.submit}`}
+              className={`btn  ${Classes.submit}`}
             >
               Publish Event
             </button>
             <button
               type="button"
-              className={`btn btn-secondary ${Classes.submit1}`}
+              className={`btn  ${Classes.submit1}`}
             >
               Cancel
             </button>
