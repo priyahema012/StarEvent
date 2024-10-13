@@ -11,7 +11,13 @@ import elipse1 from "../../Assests/Images/Ellipse 762.png";
 import elipse2 from "../../Assests/Images/Ellipse 764.png";
 import { Col } from "antd";
 
+import { Calendar, theme } from 'antd';
+const onPanelChange = (value, mode) => {
+  console.log(value.format('YYYY-MM-DD'), mode);
+};
+
 function Dashboard() {
+  const { token } = theme.useToken();
   const powerData = {
     series: [81],
     options: {
@@ -153,6 +159,14 @@ function Dashboard() {
         horizontalAlign: "right",
       },
     },
+  };
+
+
+  const wrapperStyle = {
+    width: 300,
+    border: `1px solid ${token.colorBorderSecondary}`,
+    borderRadius: token.borderRadiusLG,
+    
   };
 
   return (
@@ -424,14 +438,12 @@ function Dashboard() {
             </tbody>
           </table>
         </div>
+        <div className="col-lg-4 col-md-12" id={classes}>
+  <div style={{ ...wrapperStyle, height: '400px' }}> 
+    <Calendar fullscreen={false} onPanelChange={onPanelChange} style={{ height: '100%' }} />
+  </div>
+</div>
 
-        <div className="col-lg-4 col-md-12 " id={classes.transaction}>
-          <img
-            src={events}
-            style={{ width: "300px", height: "400px" }}
-            alt="events"
-          />
-        </div>
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ import carts2 from "../../Assests/Images/Avatar Image (6).png";
 import carts8 from "../../Assests/Images/Avatar Image (10).png";
 import cark from "../../Assests/Images/Avatar Image (9).png";
 import { Hidden } from "@mui/material";
-
+import { DatePicker } from 'antd'; 
 
 import lastdiv from "../../Assests/Images/Avatar Image (17).png";
 import lastdiv1 from "../../Assests/Images/Avatar Image (18).png";
@@ -39,7 +39,10 @@ const Calendar = () => {
       <div className="bg-white p-3 gap-0">
         <div className="d-flex justify-content-between align-items-center mt-4 mb-3">
           <h5 style={{ marginLeft: "20px" }}>Calendar</h5>
-          <img src={date} style={{ marginRight: "14px" }} alt="Date Icon" />
+         
+  <DatePicker style={{ marginRight: "14px" }} /> 
+
+
         </div>
 
         <table className="table rounded-3">
