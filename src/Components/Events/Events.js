@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card } from "antd"; // Keep Card from Ant Design for layout
+import { Card } from "antd"; 
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import Classes from "./Events.module.css";
@@ -34,9 +34,9 @@ function Events() {
 
   const [selectedValue, setSelectedValue] = useState("");
 
-  // Handle dropdown change
+  
   const handleSelectChange = (e) => {
-    setSelectedValue(e.target.value); // Update the state with the selected value
+    setSelectedValue(e.target.value);
   };
 
   const { values, errors, touched, handleChange, handleSubmit } = useFormik({
@@ -136,19 +136,7 @@ function Events() {
               <label className={`${Classes.description } form-label`}>Description</label>
               <br />
               <div className={Classes.inputWrapper}>
-                {/* <input
-                  name="description"
-                  placeholder="Text Input"
-                  className={`form-control ${Classes.Basic}`}
-                  value={values.description}
-                  style={{
-                    height: "70px",
-                    marginTop: "5px",
-                    paddingRight: "20px",
-                    width:"100%"
-                  }}
-                  onChange={handleChange}
-                /> */}
+             
                 <textarea
                 style={{backgroundColor:"gainsboro"}}
                   rows={3}
@@ -276,15 +264,15 @@ function Events() {
               <div style={{ width: "330px", position: "relative" }}>
                 <input
                 style={{height:"55px"}}
-                  type="file" // Changed input type to file
+                  type="file" 
                   name="imageUpload"
-                  accept="image/*" // Restrict to image files only
+                  accept="image/*" 
                   className={`form-control ${Classes.Basic}`}
-                  onChange={handleImageChange} // Handle image file selection
+                  onChange={handleImageChange} 
                 />
                 {imagePreview ? (
                   <img
-                    src={imagePreview} // Display the selected image
+                    src={imagePreview} 
                     alt="Uploaded"
                     style={{
                       width: "100%",
@@ -296,7 +284,7 @@ function Events() {
                   />
                 ) : (
                   <img
-                    src={upload} // Fallback to upload icon
+                    src={upload} 
                     alt="icon"
                     style={{
                       left: "300px",

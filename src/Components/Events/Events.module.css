@@ -149,14 +149,16 @@ position: relative;
 
 
 .submit {
-  width: Fixed (200px) px;
-  height: Hug (42px) px;
+  width: "200px";
+  height: "42px";
   padding: 10px 25px 10px 25px;
   gap: 5px;
   border-radius: 5px 0px 0px 0px;
-  opacity: 0px;
+  
   color: white;
   background-color: #c42072;
+  margin-right: 10px;
+ 
 }
 
 .droped{
@@ -167,15 +169,16 @@ position: relative;
 }
 
 .submit1 {
-  width: Fixed (200px) px;
-  height: Hug (42px) px;
+  width: "200px";
+  height: "42px";
   padding: 10px 25px 10px 25px;
   gap: 5px;
   border-radius: 5px 0px 0px 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
+ 
   background-color: #ffffff;
   color: #c42072;
+  
 }
 .speaker {
   font-size: 18px;
@@ -206,15 +209,7 @@ position: relative;
   margin-top: 20px;
 }
 
-.submit {
-  margin-right: 10px;
-  color: white;
-}
 
-.submit1 {
-  background-color: white;
-  color: #c42072;
-}
 
 .Basiced {
   width: 285px;
@@ -229,16 +224,16 @@ position: relative;
 
 .uploadWrapper {
   position: relative;
-  width: 100%; /* Ensure full width for the input */
+  width: 100%; 
   display: inline-block;
 }
 
 .iconed {
   position: absolute;
-  top: 50%; /* Center the image vertically */
-  right: 10px; /* Space from the right edge */
-  transform: translateY(-50%); /* Adjust for perfect vertical centering */
-  width: 25px; /* Image size */
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%); 
+  width: 25px; 
   height: 25px;
 }
 
