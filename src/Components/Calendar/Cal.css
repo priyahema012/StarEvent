@@ -1,0 +1,160 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thd {
+  border: 1px solid rgba(235, 236, 240, 1);
+  padding: 2px;
+  text-align: center;
+  width: 130px;
+  height: 67px;
+  
+}
+
+th {
+  background-color: #f5f5f5;
+  font-size: 16px;
+}
+
+.rowed {
+  border: 2px solid rgba(235, 236, 240, 1);
+  vertical-align: middle;
+}
+
+.roweds {
+  font-size: 14px;
+  font-weight: 700;
+  
+  text-align: center;
+
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.customlayout {
+  table-layout: fixed;
+}
+
+td:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+
+  th,
+  td {
+    padding: 3px;
+  }
+
+  .event,
+  .event-2,
+  .event-3,
+  .event-4 {
+    font-size: 12px;
+  }
+}
+
+.cart2 {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  color: #757575;
+  /* width: 110px;
+  height: 16px; */
+}
+
+.star {
+  font-size: 8px;
+  font-weight: 600;
+
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(41, 204, 57, 1);
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.stared {
+  font-size: 8px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  background-color: #ff6633;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.starers {
+  font-size: 8px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  background-color: #ff6633;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+.heading {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(117, 117, 117, 1);
+}
+
+.cart {
+  background-color: rgba(34, 166, 1, 0.05);
+  border: 2px solid rgba(34, 166, 1, 1);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.base {
+  background-color: rgba(34, 166, 1, 0.05);
+  border: 2px solid #ff6633;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.staryellow {
+  font-size: 8px;
+  font-weight: 600;
+
+  color: rgba(255, 255, 255, 1);
+  background-color: #ffcb33;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.starblue {
+  font-size: 8px;
+  font-weight: 600;
+
+  color: rgba(255, 255, 255, 1);
+  background-color: #e62e7b;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.starpink {
+  font-size: 8px;
+  font-weight: 600;
+height: 15px;
+  color: rgba(255, 255, 255, 1);
+  background-color: #33bfff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.starviolet {
+  font-size: 8px;
+  font-weight: 600;
+
+  color: rgba(255, 255, 255, 1);
+  background-color: #8833ff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+
+

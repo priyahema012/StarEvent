@@ -1,0 +1,62 @@
+.centerDashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .device {
+    color: #000; 
+    background-color: wheat;
+    background-color: gainsboro;
+  }
+  .container{
+    background-color: grey;
+    background-color: rgb(236, 28, 28);
+  }
+  .cardstitle{
+      color: #757575;
+      font-weight: 400;
+      font-size: 14px;
+
+  }
+  .chartchild{
+    
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    
+  }
+  .cardsnumber {
+    color: #151515;
+    font-size: 24px;
+    font-weight: 700;
+  }
+ 
+  
+
+  .chartparent{
+    width: 150px;
+     left: 15px;
+     position: relative;
+    height: 130px;
+    background-color: #ffffff;
+   
+  }
+
+
+  @media (max-width:"700px") {
+    #transaction{
+      margin-top: 40px;
+    }
+    
+  }
+
+
+  td,th{
+    padding: 13px 0px ;
+  }
+
+
+

@@ -1,0 +1,100 @@
+.navpage {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  top: 19px;
+  position: relative;
+}
+.notify {
+  left: 15px;
+  position: relative;
+}
+
+
+
+.sidebars {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+@media (max-width: 500px) {
+  .side {
+    width: 120px;
+  }
+}
+
+.dashboard {
+  width: 280px;
+  height: 50px;
+  padding: 20px 0;
+  gap: 10px;
+  opacity: 1;
+  padding: 10px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard img {
+  margin-right: 10px;
+}
+
+.dashboard:hover {
+  background-color: rgba(196, 32, 114, 0.2);
+}
+
+.menu-item-active {
+  background-color: rgba(196, 32, 114, 0.2);
+}
+
+.headerContainer {
+  padding: 0 20px;
+}
+
+.notify {
+  cursor: pointer;
+}
+
+.profileButton {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.headerContainer {
+  padding: 0 20px;
+}
+
+.notify {
+  cursor: pointer;
+}
+
+.profileButton {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+}
+
+/* navbar.module.css */
+
+.customMenu .ant-menu-item-selected {
+  background-color: #c4207233 !important;
+  color: #fff !important;
+}
+
+.customMenu .ant-menu-item:hover {
+  background-color: #c4207233 !important;
+  color: #fff !important;
+}
+
+.customMenu .ant-menu-item {
+  color: #000 !important;
+}

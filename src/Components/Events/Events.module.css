@@ -1,0 +1,256 @@
+.margin {
+  margin: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: antiquewhite;
+}
+
+.background {
+  background-color: gainsboro;
+  padding: 20px;
+  min-height: 100vh;
+}
+.line {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #121212;
+}
+
+.iconed{
+right: 25px;
+position: relative;
+}
+.inputWrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.Basic {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 1rem;
+  color: #c4207233;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.Basic {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  pointer-events: none;
+}
+
+.category {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #121212;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #121212;
+}
+.event {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #121212;
+}
+.line1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #000000;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.upload {
+  width: 32%;
+  background-color: gainsboro;
+  height: 40px;
+  padding: 16px 20px 16px 20px;
+  gap: 0px;
+  justify-content: center;
+  opacity: 0px;
+}
+
+.inputWrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  pointer-events: none;
+}
+
+.Basic {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.col {
+  flex: 1;
+  min-width: 180px;
+}
+
+.Basic {
+  width: 100%;
+  background-color: gainsboro;
+  width: Fill (335px) px;
+  height: 40px;
+  padding: 16px 20px 16px 20px;
+  gap: 0px;
+  justify-content: center;
+  opacity: 0px;
+}
+.description {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #121212;
+}
+.basic {
+  width: 100%;
+  background-color: gainsboro;
+  width: Fill (335px) px;
+  height: 70px;
+  padding: 16px 20px 16px 20px;
+  gap: 0px;
+  justify-content: center;
+  opacity: 0px;
+}
+
+.submit {
+  width: Fixed (200px) px;
+  height: Hug (42px) px;
+  padding: 10px 25px 10px 25px;
+  gap: 5px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  color: white;
+  background-color: #c42072;
+}
+
+.submit1 {
+  width: Fixed (200px) px;
+  height: Hug (42px) px;
+  padding: 10px 25px 10px 25px;
+  gap: 5px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+  color: #c42072;
+}
+.speaker {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #000000;
+}
+
+.Basics {
+  width: 100%;
+}
+.event {
+  font: bold;
+}
+.event1 {
+  font-size: 18px;
+  font: bolder;
+}
+.card {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.submit {
+  margin-right: 10px;
+  color: white;
+}
+
+.submit1 {
+  background-color: white;
+  color: #c42072;
+}
+
+.Basiced {
+  width: 285px;
+  background-color: gainsboro;
+  width: Fill (335px) px;
+  height: 40px;
+  padding: 16px 20px 16px 20px;
+  gap: 0px;
+  justify-content: center;
+  opacity: 0px;
+}
+
+.uploadWrapper {
+  position: relative;
+  width: 100%; /* Ensure full width for the input */
+  display: inline-block;
+}
+
+.iconed {
+  position: absolute;
+  top: 50%; /* Center the image vertically */
+  right: 10px; /* Space from the right edge */
+  transform: translateY(-50%); /* Adjust for perfect vertical centering */
+  width: 25px; /* Image size */
+  height: 25px;
+}

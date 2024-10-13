@@ -1,0 +1,51 @@
+[
+    {
+      "customer": "John Doe",
+      "date": "20/09/2024",
+      "eventName": "Star Music Festival",
+      "review": "Acara is one of the best vendors we've ever worked with. Thanks for your wonderful, helpful service across the board. It is greatly appreciated!",
+      "rating": 4
+    },
+    {
+      "customer": "Robert Fox",
+      "date": "20/09/2024",
+      "eventName": "Charity Fun Games",
+      "review": "Acara is one of the best vendors we've ever worked with. Thanks for your wonderful, helpful service across the board. It is greatly appreciated!",
+      "rating": 4
+    },
+    {
+      "customer": "Jacob Jones",
+      "date": "20/09/2024",
+      "eventName": "Gourmet Food Expo",
+      "review": "Acara is one of the best vendors we've ever worked with. Thanks for your wonderful, helpful service across the board. It is greatly appreciated!",
+      "rating": 4
+    },
+    {
+      "customer": "Devon Lane",
+      "date": "20/09/2024",
+      "eventName": "Fashion Forward Gala",
+      "review": "Acara is one of the best vendors we've ever worked with. Thanks for your wonderful, helpful service across the board. It is greatly appreciated!",
+      "rating": 4
+    },
+    {
+      "customer": "Cody Fisher",
+      "date": "20/09/2024",
+      "eventName": "Art & Culture Fest",
+      "review": "Acara is one of the best vendors we've ever worked with. Thanks for your wonderful, helpful service across the board. It is greatly appreciated!",
+      "rating": 4
+    },
+    {
+      "customer": "Guy Hawkins",
+      "date": "20/09/2024",
+      "eventName": "Global Yoga Retreat",
+      "review": "Acara is one of the best vendors we've ever worked with. Thanks for your wonderful, helpful service across the board. It is greatly appreciated!",
+      "rating": 4
+    },
+    {
+      "customer": "Courtney Henry",
+      "date": "20/09/2024",
+      "eventName": "Global Yoga Retreat",
+      "review": "Acara is one of the best vendors we've ever worked with. Thanks for your wonderful, helpful service across the board. It is greatly appreciated!",
+      "rating": 4
+    }
+  ]

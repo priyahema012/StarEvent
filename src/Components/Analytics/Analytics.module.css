@@ -1,0 +1,28 @@
+.sale {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+
+.analytics-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+
+.sold {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: #05004e;
+  width: 93px;
+  height: 26px;
+  top: 24px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
